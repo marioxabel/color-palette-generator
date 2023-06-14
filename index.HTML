@@ -4,41 +4,37 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="index.css" rel="stylesheet" />
-    <title>Color Picker Tool</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+    <link href="index.css" rel="stylesheet">
+    <title>🎨 Color Palette Generator</title>
 </head>
 <body>
     <form class="container">
         <input id="color-selector" type="color" value="#26a269">
         <select id="mode-selector">
+            <option value="analogic">Analogic</option>
+            <option value="analogic-complement">Analogic-complement</option>
+            <option value="complement">Complement</option>
             <option value="monochrome">Monochrome</option>
             <option value="monochrome-dark">Monochrome-dark</option>
             <option value="monochrome-light">Monochrome-light</option>
-            <option value="analogic">Analogic</option>
-            <option value="complement">Complement</option>
-            <option value="analogic-complement">Analogic-complement</option>
             <option value="triad">Triad</option>
             <option value="quad">Quad</option>
         </select>
         <button id="submit-button" type="submit">Get color scheme</button>
     </form>
+     
     <div id="color-palette" class="color-palette container">
-        <div id="color-0" class="color"></div>
-        <div id="color-1" class="color"></div>
-        <div id="color-2" class="color"></div>
-        <div id="color-3" class="color"></div>
-        <div id="color-4" class="color"></div>
-        <div id="color-5" class="color"></div>
+        <!-- Here goes the color-palette divs -->
     </div>
-    <div class="color-names container">
-        <div id="color-0-name">wasap</div>
-        <div id="color-1-name">wasap</div>
-        <div id="color-2-name">wasap</div>
-        <div id="color-3-name">wasap</div>
-        <div id="color-4-name">wasap</div>
-        <div id="color-5-name">wasap</div>
+    
+    <div id="color-names" class="color-names container">
+        <!-- Here goes the color-names <p> -->
     </div>
     
     <script src="index.js" type="text/javascript"></script>
+    
 </body>
 </html>
