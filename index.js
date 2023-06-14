@@ -8,7 +8,7 @@ let colorNames = ""
 // Generate the color-palette and color-name divs
 for (i = 0; i < numberOfColors; i ++) {
     colorPalette += `<div id="color-${i}" class="color"></div>`
-    colorNames += `<p id="color-${i}-name" data-color="color-name">wut</p>`
+    colorNames += `<p id="color-${i}-name" data-color="color-name"></p>`
 }
  
 function fetchooor() {
