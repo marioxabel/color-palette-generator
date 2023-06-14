@@ -1,4 +1,4 @@
-# 🎨 Color Palette Generator 
+# [🎨 Color Palette Generator](https://dancing-marzipan-0e4b1f.netlify.app/)
 
 ## Description
 
