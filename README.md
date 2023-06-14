@@ -2,7 +2,7 @@
 
 ## Description
 
-*Color Palette Generator  is a simple website that generates a simple scheme of colors based on an input, is fueled by [THE COLOR API](https://www.thecolorapi.com/).*
+*Color Palette Generator  is a simple website that generates a scheme of colors based on an input, is fueled by [THE COLOR API](https://www.thecolorapi.com/).*
 
 The goal of this project was to build a color scheme generator using HTML, CSS, JavaScript and Git version control for module 9 of scrimba's The Frontend Developer Career Path.
 
